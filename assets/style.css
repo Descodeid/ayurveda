@@ -1,0 +1,202 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #3D3D3D;
+}
+
+.body {
+    background-color: #E5E5E5;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.navbar-brand img {
+    height: 51px;
+    width: 76px;
+    margin-right: 27px;
+}
+
+.row.mt-2 {
+    padding-top: 110px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.subtitle.mt-2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.description.mt-3.mb-5 {
+    width: 427px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.btn.btn-primary.px-5.py-2 {
+    background-color: #A341F8;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.col-lg-5.col-md-6.col-sm-12.text-center {
+    margin-top: -110px;
+}
+
+.wrap-image, .image-rounded, .inner, .half-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.wrap-image {
+    height: 517px;
+    width: 517px;
+    background-image: url('./img/border.svg');
+    background-position: center;
+    background-size: contain;
+    margin-left: 15%;
+}
+
+.image-rounded {
+    background-image: url('./img/purple-ellipse.svg');
+    height: 443px;
+    width: 443px;
+    z-index: -2;
+}
+
+.inner {
+    background-color: white;
+    padding: 140px;
+    z-index: -1;
+}
+
+.image-rounded img {
+    height: 375px;
+    width: 375px;
+    position: absolute;
+    top: 6px;
+}
+
+.half-inner img {
+    position: absolute;
+    z-index: 2;
+    height: auto;
+    width: 443px;
+    left: -443px;
+    top: 0px;
+}
+
+.circle, .plus, .graph {
+    position: absolute;
+    background-color: #FFAF40;
+    border-radius: 50%;
+}
+
+.plus, .graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    top: 3px;
+    left: 163px;
+    height: 23px;
+    width: 23px;
+}
+
+.plus {
+    width: 66px;
+    height: 66px;
+    top: 0;
+    left: 369px;
+}
+
+.graph {
+    width: 66px;
+    height: 66px;
+    top: 425px;
+    left: 42px;
+}
+
+.badge1, .badge2, .badge3 {
+    position: absolute;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.badge1 {
+    background-image: url('./img/badge1.svg');
+    top: 83px;
+    left: -132px;
+    height: 65px;
+    width: 240px;
+    font-size: 23px;
+}
+
+.badge2 {
+    background-image: url('./img/badge2.svg');
+    top: 101px;
+    left: 379px;
+    width: 158px;
+    height: 39px;
+    font-size: 16px;
+}
+
+.badge3 {
+    background-image: url('./img/badge3.svg');
+    top: 302px;
+    left: -65px;
+    height: 39px;
+    width: 167px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.dropdown {
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+
+.btn.btn-secondary.dropdown-toggle.py-1 {
+    background-color: transparent;
+    border-color: #3D3D3D;
+    border-radius: 50px;
+    width: 183px;
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#Contact {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+#Contact img {
+    margin-right: 17px;
+}
